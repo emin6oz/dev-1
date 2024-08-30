@@ -1,2 +1,1 @@
-"# dev-1" 
-"# dev-1" 
+https://emin6oz.github.io/dev-1/
