@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>mydocradar</title>
+
+    <!-- <link href = "styles/tagsort.min.css" rel = "stylesheet" type = "text/css"></link> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tagsort@1.4.0/tagsort.min.js"></script>
+    <link href=”tagsort.css” rel=”stylesheet” type=”text/css”>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>
+    <link rel="stylesheet" href="mydoc.css" />
+    <script src="script.js"></script>
+    <!-- <script src="”tagsort.js”"></script> -->
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html"> <img class="logo" src="img/logo.svg" /></a>
+      <div id="menu-bar" class="menu-icon">
+        <i class="fa fa-bars"></i>
+      </div>
+      <nav class="navbar">
+        <a href="#appoinments">Appoinments</a>
+
+        <a href="#drchat">Drhat</a>
+        <a href="forum.html">Forum</a>
+        <a href="aboutus.html">About us</a>
+      </nav>
+
+      <div class="user">
+        <img class="user" src="img/Group 2.svg" />
+      </div>
+    </header>
+
+    <div class="dropdown">
+      <h1>Select your city</h1>
+      <select id="city" style="width: 300px">
+        <!-- Dropdown List Option -->
+      </select>
+    </div>
+
+    <div class="container">
+      <div class="tags-container row"></div>
+
+      <div class="item col-md-3" data-item-id="1" data-item-tags="Neurologist">
+        <div class="wrapper">
+          <h2>Dalton Miner</h2>
+          <img src="img/doctor2.png" alt="Dalton Miner" />
+          <p class="item-tags"></p>
+        </div>
+      </div>
+
+      <div class="item col-md-3" data-item-id="2" data-item-tags="Allergist">
+        <div class="wrapper">
+          <h2>Tom Liner</h2>
+          <img src="img/doctor1.png" alt="Tom Liner" />
+          <p class="item-tags"></p>
+        </div>
+      </div>
+
+      <div class="item col-md-3" data-item-id="3" data-item-tags="Neurologist">
+        <div class="wrapper">
+          <h2>Maria Long</h2>
+          <img src="img/doctor3.webp" alt="Maria Long" />
+          <p class="item-tags"></p>
+        </div>
+      </div>
+
+      <div class="item col-md-3" data-item-id="4" data-item-tags="Gynecolog">
+        <div class="wrapper">
+          <h2>Shaya Kumar</h2>
+          <img src="img/doctor4.png" alt="Shaya Kumar" />
+          <p class="item-tags"></p>
+        </div>
+      </div>
+
+      <div class="item col-md-3" data-item-id="5" data-item-tags="Psychiatrist">
+        <div class="wrapper">
+          <h2>Sharon Dinner</h2>
+          <img src="img/doctor5.png" alt="Sharon Dinner" />
+
+          <p class="item-tags"></p>
+        </div>
+      </div>
+
+      <div class="item col-md-3" data-item-id="6" data-item-tags=" Oncologist">
+        <div class="wrapper">
+          <h2>Samuel Lawyer</h2>
+          <img src="img/doctor6.png" alt="Samuel Lawyer" />
+
+          <p class="item-tags"></p>
+        </div>
+      </div>
+
+      <div
+        class="item col-md-3"
+        data-item-id="7"
+        data-item-tags="Cardiologistist, Oncologist"
+      >
+        <div class="wrapper">
+          <h2>Karan Nunner</h2>
+          <img src="img/doctor7.png" alt="Karan Nunner" />
+
+          <p class="item-tags"></p>
+        </div>
+      </div>
+
+      <div class="item col-md-3" data-item-id="8" data-item-tags="Neurologist">
+        <div class="wrapper">
+          <h2>Doran Dom</h2>
+          <img src="img/doctor2.png" alt="Doran Dom" />
+
+          <p class="item-tags"></p>
+        </div>
+      </div>
+
+      <div
+        class="item col-md-3"
+        data-item-id="9"
+        data-item-tags="Cardiologistist, Oncologist"
+      >
+        <div class="wrapper">
+          <h2>Jennie Jonner</h2>
+          <img src="img/doctor4.png" alt="Jennie Jonner" />
+
+          <p class="item-tags"></p>
+        </div>
+      </div>
+
+      <div
+        class="item col-md-3"
+        data-item-id="10"
+        data-item-tags="Cardiologistist"
+      >
+        <div class="wrapper">
+          <h2>Phabian Lum</h2>
+          <img src="img/doctor5.png" alt="Phabian Lum" />
+
+          <p class="item-tags"></p>
+        </div>
+      </div>
+
+      <div
+        class="item col-md-3"
+        data-item-id="11"
+        data-item-tags="Psychiatrist"
+      >
+        <div class="wrapper">
+          <h2>Sarrah Paw</h2>
+          <img src="img/doctor4.png" alt="Sarrah Paw" />
+
+          <p class="item-tags"></p>
+        </div>
+      </div>
+
+      <div
+        class="item col-md-3"
+        data-item-id="12"
+        data-item-tags="Psychiatrist"
+      >
+        <div class="wrapper">
+          <h2>Keen Uludj</h2>
+          <img src="img/doctor1.png" alt="Keen Uludj" />
+
+          <p class="item-tags"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
